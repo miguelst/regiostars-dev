@@ -1,0 +1,9 @@
+<div class="c-content-tab-4 c-opt-{{ bg_type }}" role="tabpanel">
+  <ul class="nav nav-justified" role="tablist">{{ text|raw  }}</ul>
+</div>
+
+{% if bg_type == 3 %}
+  <div class="tab-content" style="background-color: #f6f9fb;">{{ tabs_content|raw }}</div>
+{% else %}
+  <div class="tab-content" style="background-color: #3e495e;">{{ tabs_content|raw }}</div>
+{% endif %}

@@ -1,0 +1,6 @@
+name: US Courts Navigation
+description: Contains US Courts's menu navigation.
+package: US Courts
+type: module
+core: '8.x'
+package: US Courts

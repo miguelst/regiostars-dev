@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.nd_blog
+id: node.nd_blog
+target_entity_type_id: node
+target_bundle: nd_blog
+default_langcode: site_default
+language_alterable: true

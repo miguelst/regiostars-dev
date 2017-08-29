@@ -1,0 +1,8 @@
+name: Mega Slider
+type: module
+description: Responsive timeline slider with touch-swipe navigation.
+core: 8.x
+version: 8.x-1.0-beta6
+package: MegaDrupal
+dependencies:
+  - imce

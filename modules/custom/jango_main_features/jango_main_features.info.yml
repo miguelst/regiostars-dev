@@ -1,0 +1,42 @@
+name: 'Jango Main Features'
+description: "Node types, views, image styles and other elements for Rhythm theme.\r\n"
+type: module
+core: 8.x
+dependencies:
+  - block_content
+  - ckeditor
+  - comment
+  - commerce
+  - commerce_cart
+  - commerce_order
+  - commerce_price
+  - commerce_product
+  - commerce_variation_cart_form
+  - editor
+  - entity_browser
+  - entity_embed
+  - field
+  - file
+  - filter
+  - fivestar
+  - flag
+  - image
+  - imce
+  - inline_entity_form
+  - jango_cms
+  - language
+  - link
+  - menu_ui
+  - node
+  - options
+  - path
+  - rdf
+  - shortcode
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+  - views_flipped_table
+  - webform
+version: 8.x-1.0

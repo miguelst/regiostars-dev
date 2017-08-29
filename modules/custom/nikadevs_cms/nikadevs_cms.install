@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * Move layouts to theme settings
+ *
+function nikadevs_cms_update_8002() {
+  $layouts = unserialize(\Drupal::configFactory()->getEditable('nikadevs_cms.settings')->get('nikadevs_cms_layout'));
+  // Get all regions for current theme.
+  $current_theme = \Drupal::config('system.theme')->get('default');
+  $theme_settings = $current_theme . '.settings';
+  \Drupal::configFactory()->getEditable($theme_settings)->set('nikadevs_cms_layout', $layouts)->save();
+}*/
