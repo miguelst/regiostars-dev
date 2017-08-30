@@ -549,7 +549,8 @@ ol#pagination {
   display: none;
 }
 .filter-guidelines-shortcodes,
-.filter-guidelines-dynamic_shortcodes{
+.filter-guidelines-dynamic_shortcodes,
+.filter-guidelines-shortcode_dynamic{
   display: none !important;
 }
 

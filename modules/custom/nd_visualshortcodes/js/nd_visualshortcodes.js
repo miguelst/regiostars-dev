@@ -433,11 +433,11 @@
   function _settings_to_shortcode_attrs(settings, $shortcode) {
     for (i in settings) {
       // Process HTML shortcode text value 
-      if(i.indexOf('body') == 0 && i.indexOf('[value]') > -1) {
+      if(i.indexOf('text') == 0 && i.indexOf('[value]') > -1) {
         // Allow to add "[" and "]" to HTML shortcode
         $shortcode.find('h3').next().html(settings[i].replace(/\[/g, '|LS|').replace(/\]/g, '|RS|').replace(/\{/g, '|LF|').replace(/\}/g, '|RF|'));
       }
-      else if(i.indexOf('body') == 0 && i.indexOf('[format]') > -1) {
+      else if(i.indexOf('text') == 0 && i.indexOf('[format]') > -1) {
         $shortcode.attr('format', settings[i]);
       }
       else if(!settings[i] && settings[i] !== 0) {
