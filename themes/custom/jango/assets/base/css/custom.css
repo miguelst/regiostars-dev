@@ -1,3 +1,10 @@
+:root {
+  --main-gold: #C3A600;
+  --main-blue: #364688;
+}
+
+#block-jango-sub-content { padding-top: 1em;}
+
 .imagecontour {
  padding: 10px; 
  border: solid 1px #EFEFEF;
@@ -28,3 +35,306 @@
   right: 10px;
   left: auto;
 }
+
+.field_regiostars_catimg {
+    float: left;
+    margin: 0.4em 1.5em 0.7em 0;
+}
+
+/*article.node--view-mode-full {
+	margin-top: 1em;
+}*/
+
+article.node .layout.layout--twocol-bricks > div {
+    padding: 1em;
+}
+
+.c-layout-header .c-topbar .c-top-menu.c-pull-right {
+    float: right;
+    display: none;
+}
+
+.c-layout-header.c-layout-header-6 .c-topbar .c-top-menu {
+    margin: 12px 0 10px 0;
+    float: right;
+    display: none;
+}
+
+.c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-icons {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    top: 1px;
+    margin: 0 0 0 35px;
+    list-style: none;
+    float: right;
+}
+
+.c-layout-header.c-layout-header-6 .c-topbar .c-brand {
+    float: left;
+    margin: 0px;
+    padding: 8px 0 0 0;
+    width: 100%;
+}
+
+/* MENU */
+@media (max-width: 700px) {
+
+  /* Didn't take this to change the VOTE button style ?!? */
+  .btn.c-btn-border-2x.c-btn-uppercase.btn-xlg {
+    padding: 7px 64px 16px 13px;
+    margin-left: 1px;
+  }
+
+  .btn.c-btn-border-2x.c-btn-uppercase.btn-xlg2 {
+      padding: 17px 43px 17px 43px !important;
+      margin-left: 1px;
+  }
+
+  .md-object .c-font-44 {
+    font-size: 17px !important;
+    border: none;
+    line-height: 17px !important;
+    margin-left: 0;
+    padding: 0;
+    /*margin-top: -10px;*/
+  }
+  
+  .md-object .c-font-21 {
+    font-size: 10px !important;
+    line-height: 12px !important;
+    font-weight: 300;
+    margin-top: -5px;
+  }
+
+  .c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-hor-nav-toggler {
+    float: left;
+    background: #f8f9fa;
+    padding: 5px 7px;
+    position: relative;
+    top: 2px;
+    margin-left: -40px;
+    margin-top: 16px;
+  }
+
+  .c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-search-toggler {
+    display: none;
+    float: right;
+    position: relative;
+    top: 2px;
+}
+  .c-col-inline {
+    float: left;
+    min-width: 150px;
+    min-height: 290px;
+  }
+
+  .project-title-in-cat {
+    background-color: #364688;
+    padding: 7px;
+    min-height: 130px;
+    font-size: 13px !important;
+  }
+
+}
+
+@media (min-width:701px) and (max-width: 991px) {
+  .md-object .c-font-44 {
+    font-size: 24px !important;
+    border: none;
+    line-height: 44px;
+    margin-left: 0;
+    padding: 0;
+  }
+  
+  .md-object .c-font-21 {
+    font-size: 17px !important;
+    line-height: 17px;
+    font-weight: 300;
+    margin-top: -10px;
+  }
+
+  .c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-hor-nav-toggler {
+    float: left;
+    background: #f8f9fa;
+    padding: 5px 7px;
+    position: relative;
+    top: 2px;
+    margin-left: -40px;
+    margin-top: 16px;
+  }
+
+ .c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-search-toggler > i {
+      color: #aeb8c2;
+      display: none;
+  }
+  
+  .c-col-inline {
+    float: left;
+    min-width: 150px;
+    min-height: 290px;
+  }
+
+  .project-title-in-cat {
+    background-color: #364688;
+    padding: 7px;
+    min-height: 130px;
+    font-size: 13px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .c-layout-header .c-navbar .c-mega-menu.c-fonts-bold > .nav.navbar-nav > li > .c-link {
+      max-width: 168px;
+      color: #dddddd !important;
+      font-size: 0.65em;
+  }
+  
+  .c-layout-header.c-layout-header-6 .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link {
+    padding: 25px 15px 22px 15px;
+    min-height: 67px;
+  }
+
+  .project-title-in-cat {
+    background-color: #364688;
+    padding: 7px;
+    min-height: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .c-layout-header .c-navbar .c-mega-menu.c-fonts-bold > .nav.navbar-nav > li > .c-link {
+      max-width: 210px;
+      color: #dddddd !important;
+      font-size: 0.85em;
+  }
+
+  .project-title-in-cat {
+    background-color: #364688;
+    padding: 7px;
+    min-height: 90px;
+  }
+
+}
+
+.c-layout-header .c-navbar .c-mega-menu.c-fonts-bold > .nav.navbar-nav > li > .c-link:hover {
+    color: var(--main-gold) !important;
+}
+
+/* /MENU */
+
+/* CATEGORY PAGE */
+
+h2 {
+    color: #000000;
+    margin: 10px 0 24px 0;
+    font-weight: 500;
+    font-size: 18px;
+/*    letter-spacing: 1px;*/
+}
+
+
+.project-title-in-cat a {
+	color: white ;
+	font-weight: normal;
+}
+
+.project-title-in-cat a:hover {
+	color: var(--main-gold) ;
+	font-weight: normal;
+}
+
+.c-content-label h3 {
+	color: whitesmoke;
+}
+
+
+/* /CATEGORY PAGE */
+
+
+/* LOGO FORMAT */
+.c-layout-header .c-brand .c-desktop-logo {
+    display: inline-block;
+    width: 100px;
+}
+
+.c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-logo {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-logo:after {
+    display: none;
+}
+
+.c-layout-header.c-layout-header-6 .c-topbar {
+    padding: 0 0 5px 0;
+    background: #fff;
+    height: auto;
+}
+
+.c-mobile-logo {
+    display: none;
+}
+/* /LOGO FORMAT */
+
+
+/* Social Menu */
+.c-layout-header.c-layout-header-6 .c-topbar .c-brand > .c-icons {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    top: 1px;
+    margin: 17px 0 0 35px;
+    list-style: none;
+    float: right;
+}
+/* /Social Menu */
+
+/* Dot in slider */
+.owl-carousel.c-theme .owl-controls .owl-dot {
+    background: #e1e1e1;
+    display: none;
+}
+/* /Dot in slider */
+
+.c-content-media-2-slider .c-content-label {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    z-index: 10;
+    background-color: var(--main-blue);
+}
+.c-layout-header.c-layout-header-6 .c-navbar {
+    line-height: 0px;
+    background-color: #364688;
+  }
+
+
+/* Projects layout */
+@media screen and (min-width: 40em) {
+  .layout--twocol-bricks > .layout__region--first-above,
+  .layout--twocol-bricks > .layout__region--second-above,
+  .layout--twocol-bricks > .layout__region--first-below,
+  .layout--twocol-bricks > .layout__region--second-below {
+    flex: 0 1 47% !important;
+  }
+}
+
+/* Elements hidden in mobile */
+@media (max-width:450px){
+	.c-brand .c-icons.c-theme-ul,
+	#Header #block-homev4
+	{
+		display:none!important;
+	}
+}
+
+/* Set min-height for */
+.owl-carousel .owl-item img {
+	min-height: 300px !important;
+}
+
+
