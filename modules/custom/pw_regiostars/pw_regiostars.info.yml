@@ -1,0 +1,11 @@
+name: Pragmawork Regiostars Module
+description: Implements misc actions for the project
+package: Custom
+
+type: module
+core: 8.x
+
+dependencies:
+  - drupal:views
+  
+php: 5.6
