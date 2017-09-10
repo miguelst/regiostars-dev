@@ -1,0 +1,13 @@
+name: C3 Charts
+type: module
+description: 'Charts module integration with C3 Charts.'
+package: Charts
+# core: 8.x
+dependencies:
+  - charts:charts
+
+# Information added by Drupal.org packaging script on 2017-07-31
+version: '8.x-3.0-alpha5'
+core: '8.x'
+project: 'charts'
+datestamp: 1501473548
